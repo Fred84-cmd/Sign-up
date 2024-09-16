@@ -1,0 +1,78 @@
+body {
+    background-image: url(back.jpg) ;
+    background-size:cover;
+}
+#text {
+    font-style:italic;
+    font-size:40px;
+    color: goldenrod;
+}
+#enteremail {
+    color:black;
+    background-color: goldenrod;
+    border-style: groove;
+    border-width: 5px;
+    display: flex;
+    width: 30%;
+    height: 30px;
+}
+#enterpass {
+    color: black;
+    background-color: goldenrod;
+    border-style: groove;
+    border-width: 5px;
+    display: flex;
+    width: 30%;
+    height: 30px;
+}
+#firsteye {
+    position: relative;
+    width:35px;
+    cursor: pointer;
+    bottom: 40px;
+    left:530px;
+}
+#confirmpass {
+    color: black;
+    background-color: goldenrod;
+    border-style: groove;
+    border-width: 5px;
+    display: flex;
+    width: 30%;
+    height: 30px;
+}
+#secondeye {
+    position: relative;
+    width:35px;
+    cursor: pointer;
+    bottom: 40px;
+    left: 530px;
+}
+#cancel {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.7;
+}
+#signup {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.7;
+}
+#signup:hover {
+    opacity: 1;
+}
+#cancel:hover {
+    opacity: 1;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 id="text">Sign up</h1>
+<h3 id="text">"Life becomes limitless when you become fearless"</h3><hr>
+<h4 id="text">Please sign to create an account</h4>
+<h2 id="text">Email:</h2>
+<input id="enteremail" placeholder="Enter Email">
+
+<h2 id="text">Password:</h2>
+<input type="password" id="enterpass" placeholder="Enter password">
+<img src="eyeicon.png" id="firsteye">
+
+<h2 id="text">Confirm Password:</h2>
+<input type="password" id="confirmpass" placeholder="Confrim Password">
+<img src="eyeicon.png" id="secondeye">
+
+<br><br>
+
+<script>
+    let firsteye = document.getElementById("firsteye");
+    let pass = document.getElementById("enterpass");
+
+    firsteye.onclick = function(){
+        if(pass.type == "password"){
+            pass.type = "text";
+            firsteye.src ="eyeicon.png";
+          
+        }else{
+            pass.type = "password";
+            firsteye.src ="eyeicon.png"
+
+
+        }
+    }
+</script>
+
+<script>
+    let secondeye = document.getElementById("secondeye");
+    let pass1 = document.getElementById("confirmpass");
+
+    secondeye.onclick = function(){
+        if(pass1.type == "password"){
+            pass1.type = "text";
+            secondeye.src ="eyeicon.png";
+          
+        }else{
+            pass1.type = "password";
+            secondeye.src ="eyeicon.png"
+
+
+        }
+    }
+</script>
+
+
+<button id="cancel"> Cancel </button>   
+<button id="signup"> Sign Up </button>  
+<br><br><br>
+
+<a href="https://www.facebook.com/"><img src="facebook.png" width="50px"></a>
+<a href="https://www.instagram.com/"><img src="instagram.png" width="50px"></a>
+<a href="https://www.google.com/"><img src="google.png" width="50px"></a>
+
+
+</body>
+</html>
